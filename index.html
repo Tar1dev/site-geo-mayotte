@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body class="font-poppins font-medium">
+    <!--
+  Heads up! 👋
+
+  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
+-->
+
+    <section
+      class="relative bg-[url(https://www.iles.com/images/xl/village-lagon-mayotte.jpg)] bg-cover bg-center bg-no-repeat"
+    >
+      <div
+        class="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"
+      ></div>
+
+      <div
+        class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+      >
+        <div class="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+          <h1 class="text-3xl font-extrabold sm:text-5xl">
+            La situation à mayotte
+
+            <strong class="block font-extrabold text-rose-700">
+              se dégrade.
+            </strong>
+          </h1>
+
+          <p class="mt-4 max-w-lg sm:text-xl/relaxed">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
+            illo tenetur fuga ducimus numquam ea!
+          </p>
+
+          <div class="mt-8 flex flex-wrap gap-4 text-center">
+            <a
+              class="group flex items-center justify-between gap-4 rounded-lg border border-rose-700 bg-rose-700 px-5 py-3 transition-colors hover:bg-transparent focus:outline-none focus:ring"
+              href="#"
+            >
+              <span
+                class="font-medium text-white transition-colors group-hover:text-rose-700 group-active:text-rose-700"
+              >
+                Find out more
+              </span>
+
+              <span
+                class="shrink-0 rounded-full border border-current bg-white p-2 text-rose-700 group-active:text-rose-700"
+              >
+                <svg
+                  class="size-5 rtl:rotate-180 rotate-90"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
