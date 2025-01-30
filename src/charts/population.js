@@ -1,4 +1,4 @@
-const ctx = document.getElementById('firstChart');
+const ctx = document.getElementById('populationChart');
 
 const data = {
     labels: [

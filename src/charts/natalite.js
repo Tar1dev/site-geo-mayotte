@@ -1,4 +1,4 @@
-const ctx = document.getElementById('secondChart');
+const ctx = document.getElementById('nataliteChart');
 
 const labels = ["Mayotte", "France", "Russie", "Japon", "Mondiale"];
 const data = {
