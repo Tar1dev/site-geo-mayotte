@@ -76,11 +76,11 @@
           <div>
             <div class="max-w-lg md:max-w-none">
               <h2 class="text-2xl font-semibold text-gray-900 sm:text-3xl">
-                voici un schéma representant la population et la migration à mayotte en 2019
+                Voici un schéma representant la population et la migration à mayotte en 2019
               </h2>
     
               <p class="mt-4 text-gray-700">
-                mayotte est composé de 256 500 habitants en 2019 pour environ 20% de migrands clandestins. cela represente
+                Mayotte est composé de 256 500 habitants en 2019 pour environ 20% de migrands clandestins. cela represente
                 1/5 de la population. La croissance de la population de 2012 à 2017 à augmenter de 21% alors que la France n'est qu'à 2,4%
                 dans les métropolitaines.
               </p>
@@ -97,11 +97,7 @@
       <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-center md:gap-8">
           <div>
-            <img
-              src="https://images.unsplash.com/photo-1731690415686-e68f78e2b5bd?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              class="rounded"
-              alt=""
-            />
+            <canvas id="secondChart"></canvas>
           </div>
           <div>
             <div class="max-w-lg md:max-w-none">
@@ -149,5 +145,6 @@
     </section>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="src/charts/first.js"></script>
+  <script type="module" src="src/charts/first.js"></script>
+  <script type="module" src="src/charts/second.js"></script>
 </html>
