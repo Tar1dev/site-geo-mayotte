@@ -2,7 +2,7 @@ const ctx = document.getElementById('populationChart');
 
 const data = {
     labels: [
-        'Part des migrants clandestins',
+        'Migrants clandestins',
         'Population native',
     ],
     datasets: [{
